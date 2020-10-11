@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
-    "start": "node index.js"
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "grommet": "^2.15.1",
