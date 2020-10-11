@@ -1,1 +1,1 @@
-web: node ./pages/index.js
+web: npm start  
